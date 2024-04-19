@@ -13,7 +13,7 @@
     <FormKit
     label="Product Name"
     name="name"
-    validation="required"
+    validation="required|length:0,255"
     placeholder="Attractive product"
     />
 
